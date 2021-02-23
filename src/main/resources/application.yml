@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aye_park
+    username: root
+    password: root
+  jpa:
+    properties:
+      dialect: org.hibernate.dialect.MySQL5Dialect
+      show-sql: true
