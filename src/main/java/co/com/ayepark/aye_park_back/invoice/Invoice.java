@@ -73,5 +73,5 @@ public class Invoice {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="created_by")
     User createdBy;
-    
+
 }
